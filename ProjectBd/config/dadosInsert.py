@@ -18,7 +18,7 @@ cursor.execute("INSERT INTO categoria (nome_categoria) VALUES ('Eletrônicos')")
 cursor.execute("INSERT INTO categoria (nome_categoria) VALUES ('Alimentos')")
 
 # Inserir dados na tabela produto
-cursor.execute("INSERT INTO produto (nome_produto, preco_produto, estoque_produto, id_mercado, id_fornecedor, id_categoria) VALUES ('TV 50 Polegadas', 2500.00, 10, 1, 1, 1)")
+cursor.execute("INSERT INTO produto (nome_produto, preco_produto, estoque_produto, id_mercado, id_fornecedor, id_categoria) VALUES ('TV 50 Polegadas', 5500.00, 10, 1, 1, 1)")
 cursor.execute("INSERT INTO produto (nome_produto, preco_produto, estoque_produto, id_mercado, id_fornecedor, id_categoria) VALUES ('Arroz 5kg', 20.00, 50, 1, 1, 2)")
 
 # Inserir dados na tabela funcionario
